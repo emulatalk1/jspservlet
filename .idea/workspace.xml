@@ -7,12 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115d4a87-cbe9-4cb3-8de0-00167bc73e3a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utilities/MD5Library.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebExample-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/WebExample-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebExample-1.0-SNAPSHOT/WEB-INF/classes/filter/AuthenticationFilter.class" afterPath="$PROJECT_DIR$/target/WebExample-1.0-SNAPSHOT/WEB-INF/classes/filter/AuthenticationFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/filter/AuthenticationFilter.class" afterPath="$PROJECT_DIR$/target/classes/filter/AuthenticationFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filter/AuthenticationFilter.java" afterPath="$PROJECT_DIR$/src/main/java/filter/AuthenticationFilter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -59,8 +53,8 @@
       <file leaf-file-name="AuthenticationFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/filter/AuthenticationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -224,6 +218,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jspservelet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jspservelet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jspservelet" type="b2602c69:ProjectViewProjectNode" />
@@ -463,12 +465,12 @@
       <option name="presentableId" value="Default" />
       <updated>1508617413644</updated>
       <workItem from="1508617421676" duration="1518000" />
-      <workItem from="1508619102683" duration="17220000" />
+      <workItem from="1508619102683" duration="17485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18738000" />
+    <option name="totallyTimeSpent" value="19003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -683,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/filter/AuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

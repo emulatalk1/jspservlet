@@ -1,7 +1,5 @@
 package filter;
 
-import utilities.MD5Library;
-
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServlet;
@@ -23,7 +21,7 @@ public class AuthenticationFilter implements Filter {
         HttpServletResponse resp = (HttpServletResponse) servletResponse;
 
         String username = req.getParameter("username");
-        String password = MD5Library.md5(req.getParameter("password"));
+        String password = req.getParameter("password");
         System.out.println(username);
         System.out.println(password);
 
@@ -34,7 +32,7 @@ public class AuthenticationFilter implements Filter {
         if (usernameInSession != null) {
             filterChain.doFilter(servletRequest, servletResponse);
         } else  {
-            if (username != null && password != null && username.equalsIgnoreCase("emulatalk1") && password.equals(MD5Library.md5("abc123"))) {
+            if (username != null && password != null && username.equalsIgnoreCase("emulatalk1") && password.equals("abc123")) {
                 httpSession.setAttribute("username", username);
                 filterChain.doFilter(servletRequest, servletResponse);
             } else {
